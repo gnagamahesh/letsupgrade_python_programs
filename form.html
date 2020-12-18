@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="full_name">Full Name:</label>
+            <input type="text" placeholder="Enter Full Name" name="full_name">
+            <label for="password">Password:</label>
+            <input type="password" placeholder="Enter Password" name="password">
+        </div>
+        <div>
+            Favoriate Color?
+            <label for="color1">Red</label><input type="radio" name="color" value="red" id="color1">
+            <label for="color2">Blue</label><input type="radio" name="color" value="blue" id="color2">
+            <label for="color3">Green</label><input type="radio" name="color" value="green" id="color3">
+            <label for="color4">Others</label><input type="radio" name="color" value="others" id="color4">
+        </div>
+        <div>
+            <input name="country" list="countries" placeholder="country">
+            <datalist id="countries">
+                <option value="1">India</option>
+                <option value="2">USA</option>
+                <option value="3">UK</option>
+            </datalist>
+        </div>
+    </form>
+</body>
+</html>
